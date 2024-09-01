@@ -13,3 +13,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     // Clear the form fields
     document.getElementById('contact-form').reset();
 });
+
+document.getElementById('hamburger').addEventListener('click', function () {
+    document.getElementById('nav-menu').classList.toggle('show');
+});
